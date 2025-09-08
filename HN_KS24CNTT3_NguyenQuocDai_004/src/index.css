@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: #1e1e2f;
+  color: white;
+  padding: 12px 20px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  background: white;
+  padding: 15px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.toolbar input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.add-btn {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.table-container {
+  background: white;
+  margin: 0 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+th {
+  text-align: left;
+  background: #f9fafb;
+}
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.icon-btn.danger {
+  color: red;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  min-width: 300px;
+}
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+}
+.ok-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
